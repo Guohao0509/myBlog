@@ -1,0 +1,18 @@
+{
+  "name": "webapp",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "marked": "^0.4.0",
+    "nuxt": "^1.4.0",
+    "primer": "^10.5.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3"
+  }
+}
