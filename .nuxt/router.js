@@ -3,15 +3,15 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _0693a1da = () => import('..\\pages\\test.vue' /* webpackChunkName: "pages_test" */).then(m => m.default || m)
-const _19a21223 = () => import('..\\pages\\blog.vue' /* webpackChunkName: "pages_blog" */).then(m => m.default || m)
-const _376124ff = () => import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages_blog_index" */).then(m => m.default || m)
-const _2a235d14 = () => import('..\\pages\\blog\\user\\index.vue' /* webpackChunkName: "pages_blog_user_index" */).then(m => m.default || m)
-const _7008b907 = () => import('..\\pages\\blog\\tag.vue' /* webpackChunkName: "pages_blog_tag" */).then(m => m.default || m)
-const _15425e86 = () => import('..\\pages\\blog\\articleTag\\_tagId.vue' /* webpackChunkName: "pages_blog_articleTag__tagId" */).then(m => m.default || m)
-const _07aa204c = () => import('..\\pages\\blog\\article\\_article.vue' /* webpackChunkName: "pages_blog_article__article" */).then(m => m.default || m)
-const _a93448b2 = () => import('..\\pages\\blog\\user\\_userId.vue' /* webpackChunkName: "pages_blog_user__userId" */).then(m => m.default || m)
-const _9a3522be = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
+const _1e317a8c = () => import('..\\pages\\test.vue' /* webpackChunkName: "pages_test" */).then(m => m.default || m)
+const _0dd325ca = () => import('..\\pages\\blog.vue' /* webpackChunkName: "pages_blog" */).then(m => m.default || m)
+const _576e1110 = () => import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages_blog_index" */).then(m => m.default || m)
+const _1b37b0cd = () => import('..\\pages\\blog\\user\\index.vue' /* webpackChunkName: "pages_blog_user_index" */).then(m => m.default || m)
+const _08f65480 = () => import('..\\pages\\blog\\tag.vue' /* webpackChunkName: "pages_blog_tag" */).then(m => m.default || m)
+const _79108ae4 = () => import('..\\pages\\blog\\articleTag\\_tagId.vue' /* webpackChunkName: "pages_blog_articleTag__tagId" */).then(m => m.default || m)
+const _a454565a = () => import('..\\pages\\blog\\article\\_article.vue' /* webpackChunkName: "pages_blog_article__article" */).then(m => m.default || m)
+const _ae97b5c0 = () => import('..\\pages\\blog\\user\\_userId.vue' /* webpackChunkName: "pages_blog_user__userId" */).then(m => m.default || m)
+const _44d6cfda = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
 
 
 
@@ -73,48 +73,48 @@ export function createRouter () {
     routes: [
 		{
 			path: "/test",
-			component: _0693a1da,
+			component: _1e317a8c,
 			name: "test"
 		},
 		{
 			path: "/blog",
-			component: _19a21223,
+			component: _0dd325ca,
 			children: [
 				{
 					path: "",
-					component: _376124ff,
+					component: _576e1110,
 					name: "blog"
 				},
 				{
 					path: "user",
-					component: _2a235d14,
+					component: _1b37b0cd,
 					name: "blog-user"
 				},
 				{
 					path: "tag",
-					component: _7008b907,
+					component: _08f65480,
 					name: "blog-tag"
 				},
 				{
 					path: "articleTag/:tagId",
-					component: _15425e86,
+					component: _79108ae4,
 					name: "blog-articleTag-tagId"
 				},
 				{
 					path: "article/:article",
-					component: _07aa204c,
+					component: _a454565a,
 					name: "blog-article-article"
 				},
 				{
 					path: "user/:userId",
-					component: _a93448b2,
+					component: _ae97b5c0,
 					name: "blog-user-userId"
 				}
 			]
 		},
 		{
 			path: "/",
-			component: _9a3522be,
+			component: _44d6cfda,
 			name: "index"
 		}
     ],
