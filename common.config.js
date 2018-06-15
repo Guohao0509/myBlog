@@ -1,3 +1,3 @@
 module.exports = {
-  API_HOST: 'http://localhost:8080/blog'
+  API_HOST: 'http://47.98.113.131:8080/blog'
 }
