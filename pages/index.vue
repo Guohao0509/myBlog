@@ -2,7 +2,7 @@
   <div class="index-bg">
     <div class="index-content">
       <div>
-        <img class="profile" src="~/assets/image/profile_300.jpg" alt="">
+        <img class="profile" src="http://pajtmuff9.bkt.clouddn.com/profile_300.jpg" alt="">
       </div>
       <div class="title">
         GUOHAO'S BLOG
@@ -28,7 +28,7 @@ export default {
     left: 0;
     bottom: 0;
     right: 0;
-    background: url('~/assets/image/bg.jpg');
+    background: url('http://pajtmuff9.bkt.clouddn.com/bg.jpg');
     // background: #3b5973;
     background-size: 100%;
     .index-content {

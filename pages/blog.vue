@@ -3,7 +3,7 @@
     <div class="header">
       <div class="container">
         <nuxt-link to="/">
-          <img class="profile" src="~/assets/image/profile_300.jpg" alt="">
+          <img class="profile" src="http://pajtmuff9.bkt.clouddn.com/profile_300.jpg" alt="">
         </nuxt-link>
         <div class="info">
           <nuxt-link to="/">
@@ -62,7 +62,7 @@ export default {
 <style scoped lang="scss">
   .header {
     height: 300px;
-    background: url('~/assets/image/header.jpg');
+    background: url('http://pajtmuff9.bkt.clouddn.com/header.jpg');
     background-size: 100%;
     margin-bottom: 40px;
     .container {
