@@ -1,5 +1,9 @@
 module.exports = {
   build: {
+    cache: {
+      max: 1000,
+      maxAge: 3600000
+    },
     vendor: ['axios', '~/plugins/http.js', 'marked'],
     extend (config, { isDev, isClient }) {
       // config.module.rules.find((rule) => {
